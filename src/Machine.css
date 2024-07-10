@@ -1,0 +1,51 @@
+.machine {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .machine:hover {
+    transform: translateY(-5px);
+  }
+  
+  .machine h2 {
+    margin-top: 0;
+  }
+  
+  .machine .status {
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 5px;
+    color: black;
+  }
+  
+  .machine .available {
+    background-color: #28a745;
+  }
+  
+  .machine .in-use {
+    background-color: #dc3545;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+  }
